@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(Imagenes/background5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.calculator{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0.181);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(170, 170, 170);
+    padding: 26px;
+    border-radius: 20px;
+    box-shadow: 0px 80px 50px -30px rgb(41, 168, 255, 0.2);
+}
+input{
+    width: 330px;
+    padding: 25px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 45px;
+    text-align: right;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #03e9f4;
+    color: white;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+    border: 2px solid #03e9f4;
+}
+.equal{
+    width: 144px;
+    font: 700;
+    color: white;
+    background-color: transparent;
+}
+.equal:hover{
+    background-color: #fa36a2;
+    color: white;
+    box-shadow: 0 0 5px #fa36a2,
+                0 0 25px #fa36a2,
+                0 0 50px #fa36a2,
+                0 0 200px #fa36a2;
+    border: 2px solid #fa36a2;
+}
+.clear{
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+}
+.clear:hover{
+    background-color: #fa36a2;
+    color: white;
+    box-shadow: 0 0 5px #fa36a2,
+                0 0 25px #fa36a2,
+                0 0 50px #fa36a2,
+                0 0 200px #fa36a2;
+    border: 2px solid #fa36a2;
+}
+.main{
+    background-color: transparent;
+    color: white;
+}
+.main:hover{
+    background-color: #fa36a2;
+    color: white;
+    box-shadow: 0 0 5px #fa36a2,
+                0 0 25px #fa36a2,
+                0 0 50px #fa36a2,
+                0 0 200px #fa36a2;
+    border: 2px solid #fa36a2;
+}

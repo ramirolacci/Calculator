@@ -48,29 +48,6 @@ Calculator/
 
 ---
 
-## 🚀 Getting Started
-
-No build step required. Just open the file in your browser.
-
-**Option 1 — Open directly:**
-```bash
-# Clone the repository
-git clone https://github.com/your-username/Calculator.git
-
-# Open in browser
-open Calculator/index.html
-```
-
-**Option 2 — Serve locally** *(recommended for best results)*:
-```bash
-# Using VS Code's Live Server extension, or:
-npx serve .
-```
-
-Then navigate to `http://localhost:3000` in your browser.
-
----
-
 ## 🖥️ Preview
 
 <div align="center">

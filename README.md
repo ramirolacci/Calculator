@@ -32,22 +32,6 @@ The design places the calculator over a dark, atmospheric background, creating a
 
 ---
 
-## 📁 Project Structure
-
-```
-Calculator/
-├── index.html        # App structure and button layout
-├── style.css         # Glassmorphism design, neon effects, layout
-├── script.js         # Button event handling and logic
-├── Imagenes/
-│   └── background5.jpg   # Dark atmospheric background
-└── Logo/
-    ├── logo1.png
-    └── logo2.png         # Favicon used in the browser tab
-```
-
----
-
 ## 🖥️ Preview
 
 <div align="center">
